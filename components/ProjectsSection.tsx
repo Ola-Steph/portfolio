@@ -37,7 +37,7 @@ const ProjectsSection: React.FC = () => {
       title: 'Portfolio Website',
       description: 'A personal portfolio showcasing skills, projects, and contact information.',
       image: '/images/propporfolio.png',
-      liveDemo: 'https://your-live-demo-7.com',
+      liveDemo: 'https://portfolio-lyart-six-57.vercel.app/',
     },
   ];
 
