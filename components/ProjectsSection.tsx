@@ -7,7 +7,7 @@ const ProjectsSection: React.FC = () => {
       title: 'Hair Salon',
       description: 'A sleek hair salon web application with modern UI and booking functionality.',
       image: '/images/prophair.png',
-      liveDemo: 'https://hair-salon-gkn6vevcb-ola-stephs-projects.vercel.app/',
+      liveDemo: 'https://esthersalon.vercel.app/',
     },
     {
       title: 'Calculator App',
@@ -19,7 +19,7 @@ const ProjectsSection: React.FC = () => {
       title: 'Cleaning Service Website',
       description: 'A professional cleaning service website featuring service details and a contact form.',
       image: '/images/prop3.png',
-      liveDemo: 'https://cleaningwebsite-w39m.vercel.app/',
+      liveDemo: 'https://stephencleaning.vercel.app/',
     },
     {
       title: 'Task Tracker',
@@ -37,7 +37,7 @@ const ProjectsSection: React.FC = () => {
       title: 'Portfolio Website',
       description: 'A personal portfolio showcasing skills, projects, and contact information.',
       image: '/images/propporfolio.png',
-      liveDemo: 'https://portfolio-lyart-six-57.vercel.app/',
+      liveDemo: 'https://jaiyeolastephen.vercel.app/',
     },
   ];
 
