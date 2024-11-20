@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ProjectsSection: React.FC = () => {
   const projects = [
@@ -50,11 +51,14 @@ const ProjectsSection: React.FC = () => {
             className="bg-gray-800 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300 flex flex-col"
           >
             {/* Project Image */}
-            <div className="w-full h-40 rounded-lg overflow-hidden mb-4">
-              <img
+            <div className="w-full h-40 rounded-lg overflow-hidden mb-4 relative">
+              <Image
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                layout="fill"
+                objectFit="cover"
+                className="transition-transform duration-300 hover:scale-105"
+                priority={index === 0} // Load the first project image with higher priority
               />
             </div>
             {/* Project Title */}

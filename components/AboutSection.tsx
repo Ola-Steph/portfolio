@@ -25,20 +25,20 @@ const AboutSection: React.FC = () => {
       <div className="md:w-1/2 mt-8 md:mt-0 md:pl-8 flex flex-col items-center md:items-start">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
         <p className="text-lg text-gray-300 mb-4 max-w-sm md:max-w-md">
-          I'm a passionate developer with a strong foundation in front-end and back-end technologies. 
+          {`I'm a passionate developer with a strong foundation in front-end and back-end technologies. 
           My journey in tech began with a love for solving problems and bringing creative ideas to life. 
           Over the years, I have honed my skills in building scalable, user-centric applications, 
-          always striving to deliver seamless user experiences.
+          always striving to deliver seamless user experiences.`}
         </p>
         <p className="text-lg text-gray-300 mb-6 max-w-sm md:max-w-md">
-          With a commitment to continuous learning, I stay updated with the latest industry trends 
+          {`With a commitment to continuous learning, I stay updated with the latest industry trends 
           and tools, ensuring that my solutions are both modern and efficient. I enjoy working in 
-          collaborative environments, leveraging my expertise to contribute to impactful projects.
+          collaborative environments, leveraging my expertise to contribute to impactful projects.`}
         </p>
         <p className="text-lg text-gray-300 mb-6 max-w-sm md:max-w-md">
-          Outside of coding, I love exploring new technologies, sharing knowledge within developer 
+          {`Outside of coding, I love exploring new technologies, sharing knowledge within developer 
           communities, and tackling challenges that push my creative and technical boundaries. 
-          Every project I undertake is an opportunity to grow, innovate, and make a meaningful impact.
+          Every project I undertake is an opportunity to grow, innovate, and make a meaningful impact.`}
         </p>
 
         {/* Tabs */}
@@ -89,7 +89,6 @@ const AboutSection: React.FC = () => {
                   <li>Git </li>
                 </ul>
                 <ul className="space-y-2">
-                
                   <li>GitHub</li>
                   <li>PHP</li>
                   <li>Python</li>
@@ -103,19 +102,21 @@ const AboutSection: React.FC = () => {
             {activeTab === 'education' && (
               <ul className="list-disc list-inside text-left text-gray-300 space-y-4">
                 <li>
-                  Bachelor's Degree in Computer Science - Pearson Institute, 
-                  Midrand Campus, South Africa (2017–2020)
+                  {`Bachelor's Degree in Computer Science - Pearson Institute, 
+                  Midrand Campus, South Africa (2017–2020)`}
                 </li>
                 <li>
-                  Bachelor's Degree Honors in Software Engineering - Eduvos, 
-                  Midrand, South Africa (Jan 2021–Dec 2021)
+                  {`Bachelor's Degree Honors in Software Engineering - Eduvos, 
+                  Midrand, South Africa (Jan 2021–Dec 2021)`}
                 </li>
                 <li>
-                  App Academy Open - Specialization: Software Development
+                  {`App Academy Open - Specialization: Software Development`}
                   <br />
-                  <span className="text-gray-400">www.appacademy.io (Feb 2023–Dec 2023)</span>
+                  <span className="text-gray-400">
+                    www.appacademy.io (Feb 2023–Dec 2023)
+                  </span>
                   <br />
-                  Academic Achievement: Software Engineering
+                  {`Academic Achievement: Software Engineering`}
                 </li>
               </ul>
             )}

@@ -7,10 +7,10 @@ const ContactSection: React.FC = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Column */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Connect</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s Connect</h2>
           <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-            I'm currently looking for new opportunities, and my inbox is always open. Whether you
-            have a question or just want to say hi, I'll try my best to get back to you!
+            I&apos;m currently looking for new opportunities, and my inbox is always open. Whether you
+            have a question or just want to say hi, I&apos;ll try my best to get back to you!
           </p>
           <div className="flex items-center gap-6">
             <a
