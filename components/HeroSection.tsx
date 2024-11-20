@@ -26,8 +26,8 @@ const HeroSection: React.FC = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
           <a
-            href="/path/to/cv.pdf"
-            download
+            href="/JAIYEOLASTEPHEN.pdf"
+            download="JAIYEOLASTEPHEN.pdf"
             className="w-full sm:w-auto border-2 border-yellow-300 text-yellow-300 hover:bg-yellow-300 hover:text-black px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base lg:text-lg transition duration-300 text-center"
           >
             Download My CV
