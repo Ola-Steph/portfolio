@@ -24,7 +24,7 @@ const ContactSection: React.FC = () => {
               <FaGithub />
             </a>
 
-            {/* LinkedIn (optional) */}
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/jaiyeola-stephen-b04559260/"
               target="_blank"
@@ -51,7 +51,7 @@ const ContactSection: React.FC = () => {
         {/* Right Column */}
         <div>
           <form
-            action="/send-message"
+            action="https://formspree.io/f/xrbglobe"
             method="POST"
             className="bg-gray-700 p-6 rounded-lg shadow-lg"
           >
