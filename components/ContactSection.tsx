@@ -13,8 +13,9 @@ const ContactSection: React.FC = () => {
             have a question or just want to say hi, I&apos;ll try my best to get back to you!
           </p>
           <div className="flex items-center gap-6">
+            {/* GitHub */}
             <a
-              href="https://github.com/your-github-profile"
+              href="https://github.com/Ola-Steph"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white text-3xl transition-colors duration-300"
@@ -22,8 +23,10 @@ const ContactSection: React.FC = () => {
             >
               <FaGithub />
             </a>
+
+            {/* LinkedIn (optional) */}
             <a
-              href="https://linkedin.com/in/your-linkedin-profile"
+              href="https://www.linkedin.com/in/jaiyeola-stephen-b04559260/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white text-3xl transition-colors duration-300"
@@ -31,8 +34,10 @@ const ContactSection: React.FC = () => {
             >
               <FaLinkedin />
             </a>
+
+            {/* WhatsApp */}
             <a
-              href="https://wa.me/your-phone-number"
+              href="https://wa.me/2349057331822"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 hover:text-green-400 text-3xl transition-colors duration-300"
